@@ -21,9 +21,12 @@ class cs_student(Human):
     def __init__(self, height, weight, gender, is_love_coding):
         super().__init__(height, weight,gender)
         self.is_love_coding = is_love_coding
-police = Police(6,70,"male","Bangladeshi", False)
-print(police.nationality)     
 
-programmer = cs_student(5.5, 60, "female", True)     
+if __name__ == "__main__":
 
-print(programmer.gender)
+    police = Police(6,70,"male","Bangladeshi", False)
+    print(police.nationality)     
+
+    programmer = cs_student(5.5, 60, "female", True)     
+
+    print(programmer.gender)
